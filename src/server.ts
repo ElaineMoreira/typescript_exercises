@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  return res.json({ message: 'Olá Elaine devOps!' })
+  return res.json({ message: 'Olá Elaine devOps, calma vai dar tudo certo!' })
 });
 
 app.listen(3000, () => console.log(`Sobe servidor na porta 3000! :)`))
